@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Simple JavaScript Actions
         id: greet
-        uses: https://github.com/lambatea/helloworld-javascript-actions@master
+        uses: https://github.com/actions/hello-world-javascript-action@v1
         with:
           who-to-greet: Anuja
       - name: Log greeting time
