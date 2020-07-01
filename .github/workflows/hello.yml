@@ -1,0 +1,14 @@
+name: Shell Commands
+
+on: [push]
+
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo commands
+        run: echo Anuja
+      - name: echo commands
+        run: echo Lambate
+  
+  
