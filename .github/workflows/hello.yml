@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo commands
-        run: echo Anuja
+        run: echo Anuja Anil
       - name: echo commands
         run: echo Lambate
   
