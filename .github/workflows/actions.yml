@@ -23,5 +23,8 @@ jobs:
           who-to-greet: Anuja
       - name: Log greet time
         run: echo "${{ steps.greet.outputs.time }}"
-
+      - name: Install a package
+        run: |
+          sudo apt-get update
+          sudo apt install nginx
         
